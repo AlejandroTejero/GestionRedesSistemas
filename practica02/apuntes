@@ -1,0 +1,30 @@
+### COMANDOS PARA ENLACE SIMBOLICO:
+
+- Creacion enlace
+ln -s ~/lagrs/practica02/mi_topCreado.py ~/lagrs/practica02/mi_topEnlace.py
+- Comprobacion
+ls -l mi_top.py --> Comprueba si se ha hecho bien el enlace
+- Fuerza creacion o aid', '-Gn'ctualizacion del enlace
+ln -sf ~/lagrs/practica02/mi_top02.py ~/lagrs/practica02/mi_top.py
+
+
+
+### COMANDOS PARA LAS OPCIONES DE MI_TOP02.PY
+- Ejecucion normal: python3 mi_top.py
+- Ejecucion con opciones:
+-u / --user: Aparecerá como "Filtrar procesos por usuario".
+mi_top.py -u alexteje
+-t / --threshold: Aparecerá como "Mostrar procesos con %CPU mayor al umbral especificado".
+mi_top.py -t 1
+-o / --output: Aparecerá como "Guardar salida en un archivo".
+mi_top.py -o salida.txt
+
+
+
+### ACTIVACION ENTORNO VIRTUAL
+source env/bin/activate
+
+
+### SOLUCION ERROR SWP EN VIM
+rm .hola_telegram.py.swp
+
